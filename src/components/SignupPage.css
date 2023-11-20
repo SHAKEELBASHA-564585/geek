@@ -1,0 +1,43 @@
+.signup-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image:linear-gradient(orange,violet)
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input,
+  select {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: 0 ;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  h1{
+    text-align: center;
+  }
+  .btn-con{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }

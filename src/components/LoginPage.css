@@ -1,0 +1,43 @@
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-image:linear-gradient(orange,violet)
+  }
+  h1{
+    text-align: center;color:darkgreen
+
+}
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border:0;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .btn-con{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
